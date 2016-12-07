@@ -54,15 +54,86 @@
         	<div class="col-md-12" id="contactHeader">
         		<h1>CONTACT US</h1>
         	</div>
-        </div> <!-- page header close -->   
+        </div>
+    </div> <!-- page header close -->
+    
+    <div class="container"> <!-- body content open -->
         <div class="row">
-        	<div class="col-md-6" id="map">
+        	<div class="col-md-8" id="map"> <!-- map column open -->
         		<div class="iframe-container">
         			<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=2112%20West%20Main%20Street%2C%20Urbana%2C%20IL%2C%20United%20States&key=AIzaSyANOce2UpZ8hM9RxatV4dDMhGaF5sYwMGE" allowfullscreen></iframe>
         		</div>
-        	</div>
+        	</div> <!-- map column close -->
+			<div class="col-md-4"> <!-- comment form column open -->
+
+					<div class="row">
+						<form id="email_form" action="https://formspree.io/jklett2@stu.parkland.edu" method="POST">
+							<div class="col-md-12" id="commentForm">   
+								<div class="form-group"> 
+									<fieldset>
+                                    	<p>Give us some feedback about your recent experience at Donut Delights! We are always looking to improve!</p>
+										<label for="full_name">
+											Name
+                        					<input type="text" name="name" placeholder="Your name here!" class="form-control" size="30" maxlength="100" />
+                    					</label>
+                    					<br />
+                    					<label for="email">
+                        					Email
+                        					<input type="email" name="email" placeholder="Your email here!" class="form-control" size="30" maxlength="100" />
+                    					</label>
+                    					<br />
+                					</fieldset>
+            					</div> <!-- /.form-group -->
+            					<br />
+            					<fieldset>
+									<label for="hear-about">
+										How did you hear about us?
+                					</label>
+                					<select name="referrer" id="hear-about">
+                    					<option value="google">Google</option>
+                    					<option value="friend">Friend</option>
+                    					<option value="advert">Advert</option>
+                    					<option value="other">Other</option>
+                					</select>
+                					<div class="form-group">
+                    					<p>Would you visit again?</p>
+                    					<label>
+                        					<input type="radio" name="rating" value="yes" />
+                        					Yes
+                    					</label>
+                    					<label>
+                        					<input type="radio" name="rating" value="no" />
+                        					No
+                    					</label>
+                    					<label>
+                        					<input type="radio" name="rating" value="maybe" />
+                        					Maybe
+                    					</label>
+                					</div> <!-- /.form-group -->
+                					<div class="form-group">
+                    					<label for="comments">
+                       		 				Comments
+                    					</label>
+                    					<br/>
+                    					<textarea rows="4" cols="40" id="comments" placeholder="What was your experience like?" class="form-control"></textarea>
+                					</div> <!-- /.form-group -->
+                					<p>Subscribe to our newsletter for the latest on our seasonal offerings and special events!</p>
+                					<label>
+                 		   				<input type="checkbox" name="subscribe" checked="checked" />
+                  		  				Sign me up for email updates
+                					</label>
+                					<br/>
+                					<br/>
+                					<input type="submit" value="Submit" />
+            					</fieldset>
+                
+							</div> <!-- /.col-md-4 -->
+						</form>
+					</div> <!-- /.row -->
+
+			</div> <!-- comment form column close -->
         </div>
-    </div>
+    </div> <!-- body content close -->
     
     
     <footer> <!-- Footer section open -->
@@ -113,6 +184,16 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/bp.js"></script>
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
 </body>
 
 </html>

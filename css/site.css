@@ -136,3 +136,10 @@ span.line {
     height: 100%;
     width: 100%;
 }
+
+#commentForm{
+    background-color: #FFC73C;
+    color: #B68304;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
