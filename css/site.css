@@ -147,4 +147,58 @@ span.line {
     color: #B68304;
     padding-top: 10px;
     padding-bottom: 15px;
+	position: absolute;
+	display: inline-block;
+}
+
+#contactInfo p {
+	color: #FFC73C;
+	
+}
+
+#infoHeader {
+	font-weight: 900;
+}
+
+#infoHeader2 {
+	font-weight: 900;
+	text-align: right;
+}
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #4D3A2E;
+}
+
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #4D3A2E;
+}
+
+li {
+	color: #FFC73C;
+}
+
+#infoColumn {
+	padding: 0;
+	margin: 0;
 }
