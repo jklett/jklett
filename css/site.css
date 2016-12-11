@@ -108,8 +108,12 @@ span.line {
     margin: 0;
 }
 
-#aboutPics img {
-	border: #28170C solid 3px;
+#aboutLeft {
+	padding-right: 10px;
+}
+
+#aboutRight {
+	padding-left: 10px;
 }
 
 #contactHeader h1 {
@@ -138,7 +142,10 @@ span.line {
 }
 
 #map {
-	padding: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 20px;
+	padding-bottom: 0;
 	margin: 0;
 }
 
@@ -206,4 +213,28 @@ li {
 #hoursColumn {
 	padding: 0;
 	margin: 0;
+}
+
+#reviews {
+	margin: 0;
+	padding: 0;
+}
+
+#reviewsCarousel { 
+	margin: 0;
+	padding:0;
+	
+}
+
+#facts {
+	margin: 0;
+	padding: 0;
+	background-color: #B55427;
+	border: #28170C solid 3px;
+	
+}
+
+#factsCarousel { 
+	margin: 0;
+	padding:0;
 }

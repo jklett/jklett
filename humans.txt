@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Justin Klett -- Page Designer, Coder, etc. -- @JustinKlett
 
 # THANKS
 
-    <name>
+    Parkland College CIS 152 Professor Becky Ding, for being super patient with me as I encountered one problem after another.
 
 # TECHNOLOGY COLOPHON
 
